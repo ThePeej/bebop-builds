@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  height: 100%;
 }
 
 .App-logo {
@@ -25,4 +26,11 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+
+#Landing {
+  height: 900px;
+  text-align: center;
+  background: #161415 url(./images/Landing.jpg) no-repeat top center;
 }
