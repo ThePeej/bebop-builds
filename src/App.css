@@ -2,6 +2,7 @@
   position: absolute;
   height: 100% !important;
   width: 100% !important;
+  display: flex;
 }
 
 
@@ -10,6 +11,12 @@
   to { transform: rotate(360deg); }
 } */
 
+#sidebar {
+  display: flex;
+  justify-content: center;
+  flex: 1
+}
+
 #landing {
   background: url(./images/Landing.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -17,9 +24,10 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+  flex: 5;
 }
 
-#landing-title{
+#landing-title {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,6 +37,14 @@
 
 #landing-title h1{
   font: 90px/1em "Anton", sans-serif;
+  color: rgb(252, 248, 243);
+  letter-spacing: 2px;
+  margin: 0 auto 18px auto;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.9);
+}
+
+#landing-title h3{
+  font: 24px/1em "Rock Salt", cursive;
   color: rgb(252, 248, 243);
   letter-spacing: 2px;
   margin: 0 auto 18px auto;
